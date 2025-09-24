@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Conecta Ribas</string>
+    <string name="app_description">Primeiros Socorros e Autodiagnóstico para Comunidades Ribeirinhas</string>
+    
+    <!-- Navegação -->
+    <string name="nav_home">Início</string>
+    <string name="nav_diagnosis">Autodiagnóstico</string>
+    <string name="nav_first_aid">Primeiros Socorros</string>
+    <string name="nav_history">Histórico</string>
+    <string name="nav_settings">Configurações</string>
+    
+    <!-- Botões -->
+    <string name="btn_start_diagnosis">Iniciar Autodiagnóstico</string>
+    <string name="btn_view_guides">Ver Guias</string>
+    <string name="btn_export">Exportar</string>
+    <string name="btn_import">Importar</string>
+    <string name="btn_clear">Limpar</string>
+    <string name="btn_save">Salvar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_back">Voltar</string>
+    <string name="btn_next">Próximo</string>
+    <string name="btn_finish">Finalizar</string>
+    
+    <!-- Mensagens -->
+    <string name="msg_emergency_warning">Este aplicativo é apenas para orientação inicial. Em caso de emergência, procure ajuda médica profissional imediatamente.</string>
+    <string name="msg_no_data">Nenhum dado encontrado</string>
+    <string name="msg_loading">Carregando...</string>
+    <string name="msg_error">Ocorreu um erro</string>
+    <string name="msg_success">Operação realizada com sucesso</string>
+    
+    <!-- Diagnóstico -->
+    <string name="diagnosis_title">Autodiagnóstico Guiado</string>
+    <string name="diagnosis_step">Passo %1$d de %2$d</string>
+    <string name="diagnosis_result_emergency">Alerta de Emergência!</string>
+    <string name="diagnosis_result_urgent">Orientações Iniciais</string>
+    <string name="diagnosis_result_mild">Sintomas Leves (Observe)</string>
+    
+    <!-- Primeiros Socorros -->
+    <string name="first_aid_title">Guias de Primeiros Socorros</string>
+    <string name="first_aid_emergency">EMERGÊNCIA</string>
+    <string name="first_aid_warning_signs">Sinais de Alerta - Procure Ajuda Médica:</string>
+    
+    <!-- Histórico -->
+    <string name="history_title">Histórico de Sintomas</string>
+    <string name="history_total_records">Total de %1$d registros</string>
+    <string name="history_empty">Nenhum registro encontrado</string>
+    <string name="history_empty_description">Realize um autodiagnóstico para começar a criar seu histórico</string>
+    
+    <!-- Configurações -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_data_management">Gerenciamento de Dados</string>
+    <string name="settings_preferences">Preferências</string>
+    <string name="settings_information">Informações</string>
+    <string name="settings_about">Sobre o App</string>
+    
+    <!-- Exportação/Importação -->
+    <string name="export_title">Exportar Dados</string>
+    <string name="import_title">Importar Dados</string>
+    <string name="export_format_selection">Escolha o formato para exportar seus dados:</string>
+    <string name="import_method_selection">Escolha como deseja importar seus dados:</string>
+    
+    <!-- Formatos -->
+    <string name="format_json">JSON</string>
+    <string name="format_csv">CSV</string>
+    <string name="format_qr">QR Code</string>
+    <string name="format_file">Arquivo</string>
+    <string name="format_bluetooth">Bluetooth</string>
+    
+    <!-- Diálogos -->
+    <string name="dialog_confirm">Confirmar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_close">Fechar</string>
+    <string name="dialog_clear_all">Limpar Tudo</string>
+    
+    <!-- Confirmações -->
+    <string name="confirm_clear_history">Tem certeza que deseja remover todos os registros de sintomas? Esta ação não pode ser desfeita.</string>
+    <string name="confirm_clear_all_data">Tem certeza que deseja remover todos os dados? Esta ação não pode ser desfeita e removerá:\n\n• Histórico de sintomas\n• Configurações personalizadas\n• Dados de backup</string>
+    
+    <!-- Sobre -->
+    <string name="about_version">Versão 1.0.0</string>
+    <string name="about_description">Aplicativo de primeiros socorros e autodiagnóstico para comunidades ribeirinhas.</string>
+    <string name="about_offline">Desenvolvido com foco em funcionalidade offline e interface intuitiva para usuários com pouca familiaridade com tecnologia.</string>
+    <string name="about_copyright">© 2024 Conecta Ribas. Todos os direitos reservados.</string>
+</resources>
