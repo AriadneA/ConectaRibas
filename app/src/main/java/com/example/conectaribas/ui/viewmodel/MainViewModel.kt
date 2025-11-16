@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import java.util.Date
 
+
 /**
  * ViewModel principal da aplicação Conecta Ribas
  * Gerencia o estado global e coordena as operações entre a UI e o repositório
