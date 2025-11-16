@@ -134,26 +134,6 @@ Guias de primeiros socorros:
 - **Ícones Intuitivos**: Reconhecimento visual rápido
 - **Cores Semânticas**: Verde (seguro), Amarelo (atenção), Vermelho (emergência)
 
-## 📱 Como Executar o Projeto
-
-### Pré-requisitos
-- Android Studio Hedgehog ou superior
-- Android SDK 24+ (API Level 24)
-- Kotlin 2.0.21+
-- Gradle 8.12.2+
-
-## 🧪 Testes
-
-### Estrutura de Testes
-```
-app/src/
-├── test/                          # Testes unitários
-│   └── java/com/example/conectaribas/
-│       └── ExampleUnitTest.kt
-└── androidTest/                   # Testes de instrumentação
-    └── java/com/example/conectaribas/
-        └── ExampleInstrumentedTest.kt
-```
 ### Avisos Médicos
 - **Orientação Inicial**: O app fornece apenas orientações preliminares
 - **Não Substitui**: Consulta médica profissional
