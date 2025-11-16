@@ -195,7 +195,7 @@ fun FirstAidListScreen(
                     text = "Instruções para emergências médicas",
                     style = MaterialTheme.typography.bodyMedium,
                     textAlign = TextAlign.Center,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                    //color = MaterialTheme.colorScheme.onSurface
                 )
             }
         }
@@ -270,7 +270,7 @@ fun FirstAidGuideCard(
                 Text(
                     text = guide.description,
                     style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                    //color = MaterialTheme.colorScheme.onSurface
                 )
                 
                 if (guide.isEmergency) {
@@ -309,7 +309,7 @@ fun FirstAidGuideCard(
             Icon(
                 imageVector = Icons.Default.ArrowForward,
                 contentDescription = "Ver detalhes",
-                tint = MaterialTheme.colorScheme.onSurfaceVariant
+                //tint = MaterialTheme.colorScheme.onSurface
             )
         }
     }

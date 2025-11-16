@@ -45,17 +45,18 @@ class MainViewModel(
         viewModelScope.launch {
             try {
                 _uiState.value = _uiState.value.copy(isLoading = true)
-                
-                // Carrega guias de primeiros socorros
-                repository.getAllFirstAidGuides().collect { guides ->
-                    _firstAidGuides.value = guides
+
+                launch {
+                    repository.getAllFirstAidGuides().collect { guides ->
+                        _firstAidGuides.value = guides
+                    }
                 }
-                
-                // Carrega histórico de sintomas
-                repository.getAllSymptomRecords().collect { records ->
-                    _symptomHistory.value = records
+                launch {
+                    repository.getAllSymptomRecords().collect { records ->
+                        _symptomHistory.value = records
+                    }
                 }
-                
+
                 _uiState.value = _uiState.value.copy(isLoading = false)
             } catch (e: Exception) {
                 _uiState.value = _uiState.value.copy(

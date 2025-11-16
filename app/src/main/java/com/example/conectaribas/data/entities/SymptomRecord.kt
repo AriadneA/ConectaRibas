@@ -35,9 +35,14 @@ data class SymptomRecord(
      * Orientações específicas fornecidas pelo sistema
      */
     val recommendations: String,
-    
+
+    /**
+     * URI da foto do paciente (opcional)
+     */
+
     /**
      * Nome ou identificação do usuário (opcional)
      */
     val patientName: String? = null
+
 )

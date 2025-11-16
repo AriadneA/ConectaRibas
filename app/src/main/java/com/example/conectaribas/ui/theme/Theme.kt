@@ -39,7 +39,7 @@ private val LightColorScheme = lightColorScheme(
 
 @Composable
 fun ConectaRibasTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    darkTheme: Boolean = false,
     // Dynamic color desabilitado para usar nossa paleta amazônica personalizada
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit

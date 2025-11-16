@@ -210,12 +210,13 @@ fun AmazonHeaderWithIcon(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center
             ) {
-                Icon(
+                /*Icon(
                     painter = painterResource(id = R.drawable.icone_app),
                     contentDescription = "Ícone do app",
                     modifier = Modifier.size(32.dp)
-                )
 
+                )
+*/
                 Spacer(modifier = Modifier.width(12.dp))
 
                 Text(
